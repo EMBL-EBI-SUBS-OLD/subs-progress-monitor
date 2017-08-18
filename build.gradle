@@ -150,8 +150,6 @@ task deployJar(type: SshTask, dependsOn: 'assemble') {
     }
 }
 
-mainClassName = "uk.ac.ebi.subs.ApiSupportApplication"
-
 springBoot {
     executable = true
 }
